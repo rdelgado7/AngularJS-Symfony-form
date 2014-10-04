@@ -25,8 +25,6 @@ app.factory('FormRepository', function ($http) {
                         if(model[key] != false)
                             data[name+'['+key+']'] = model[key];
                     }
-                }else{
-
                 }
             });
             console.log(data);
